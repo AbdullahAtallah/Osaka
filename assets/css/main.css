@@ -6,6 +6,12 @@
 body{
     font-family: var(--mainFont);
 }
+.primary__color{
+    color: var(--primaryColor);
+}
+.main__font{
+    font-family: var(--mainFont);
+}
 .navbar .nav-link{
     color: #fff;
     font-size: .875rem;
@@ -14,11 +20,12 @@ body{
     color: var(--primaryColor);
 }
 .hero{
-    background-image:url(./../img/bg.jpg);
+    background-image:url(./../img/hero/bg.jpg);
     background-size: cover;
-    background-position: -10px -50px;
+    background-position: center -50px;
 }
-.hero a{
-    color: var(--primaryColor);
+.about{
+    background-image: url(./../img/public/light_dot.jpg);
 }
+
 
