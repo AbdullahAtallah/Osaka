@@ -1,31 +1,58 @@
-:root{
-    --mainFont:"Open Sans", sans-serif;
-    --primaryColor:#ff206e
+:root {
+    --mainFont: "Open Sans", sans-serif;
+    --primaryColor: #ff206e
 }
 
-body{
+body {
     font-family: var(--mainFont);
 }
-.primary__color{
+
+.primary__color {
     color: var(--primaryColor);
 }
-.main__font{
+
+.main__font {
     font-family: var(--mainFont);
 }
-.navbar .nav-link{
+
+.navbar .nav-link {
     color: #fff;
     font-size: .875rem;
 }
-.navbar .navbar-nav .nav-link.active, .navbar .navbar-nav .nav-link.show {
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link.show {
     color: var(--primaryColor);
 }
-.hero{
-    background-image:url(./../img/hero/bg.jpg);
+
+.hero {
+    background-image: url(./../img/hero/bg.jpg);
     background-size: cover;
     background-position: center -50px;
 }
-.about{
+
+.about,
+.portfolio {
     background-image: url(./../img/public/light_dot.jpg);
 }
 
+.portfolio .nav-link {
+    color: #000;
+}
 
+.portfolio .nav-tabs .nav-item.show .nav-link,
+.portfolio .nav-tabs .nav-link.active,
+.portfolio .nav-tabs .nav-link:hover {
+    color: var(--primaryColor);
+    isolation:auto;
+
+}
+
+
+.portfolio .nav-tabs .nav-link {
+    border: none;
+}
+
+.portfolio .nav-tabs {
+    border-bottom: none;
+}
