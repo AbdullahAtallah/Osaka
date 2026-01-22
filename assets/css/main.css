@@ -56,3 +56,17 @@ body {
 .portfolio .nav-tabs {
     border-bottom: none;
 }
+.testimonials img{
+    width: 100px;
+    height: 100px;
+}
+.testimonials .card-img-top{
+    top: -45px;
+}
+.carousel-indicators [data-bs-target]{
+    background-color:#000;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 0 8px;
+}
